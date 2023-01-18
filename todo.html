@@ -31,7 +31,20 @@
          ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚═╝
         -->
 		<div id="app">
-			<h3 class="header">JavaScript MVC architecture course!</h3>
+			<input
+				type="text"
+				class="header text-primary"
+				id="textbox-element"
+			/>
+			<button
+				id="btn"
+				class="header"
+				onclick="addTodo()"
+			>
+				Add Todo
+			</button>
+
+			<div id="todo-render"></div>
 			<script src="app.js"></script>
 		</div>
 	</body>

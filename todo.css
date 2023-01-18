@@ -1,12 +1,12 @@
 *::before,
 *::after,
 * {
+	font-family: "Roboto";
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	font-family: "Jetbrains Mono";
 	box-sizing: border-box;
 	margin: 1.375rem;
 }
@@ -17,9 +17,29 @@ body {
 }
 
 .todo-style {
-	font-family: Arial;
 	color: black;
 	padding: 4px 0px;
 	margin-bottom: 2px;
 	font-size: 18px;
+}
+
+button {
+	padding: 8px 12px;
+	margin-bottom: 1.25rem;
+	background-color: aquamarine;
+	border: none;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background-color 0.75s;
+}
+
+button:hover {
+	background-color: bisque;
+}
+
+.text-primary {
+	width: 500px;
+	height: 32px;
+	border: 1px solid black;
+	border-radius: 8px;
 }
