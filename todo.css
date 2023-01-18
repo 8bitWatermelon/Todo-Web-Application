@@ -1,0 +1,25 @@
+*::before,
+*::after,
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Jetbrains Mono";
+	box-sizing: border-box;
+	margin: 1.375rem;
+}
+
+.header {
+	color: rgb(96, 96, 96);
+	margin-bottom: 1.125rem;
+}
+
+.todo-style {
+	font-family: Arial;
+	color: black;
+	padding: 4px 0px;
+	margin-bottom: 2px;
+	font-size: 18px;
+}
